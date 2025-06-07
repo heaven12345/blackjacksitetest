@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,h1,h2,h3,h4,h5,h6,
+span,small,strong,
+div,ul,li,
+figure,../img,
+header,footer,nav,section {
+  margin:0;
+  padding:0;
+  border:none;
+  outline:none;
+}
+
+../img{
+  vertical-align:top;
+}
+
+header,nav,main,section,footer {display:block;}
+
+html {
+  font:12px "ÉqÉâÉMÉmäpÉS Pro W3";
+  -webkit-text-size-adjust:none;
+}
+
+body {
+  background:#FFF;
+  color:#333;
+  cursor:url(img/cross.cur), crosshair;
+  width:1080px;
+  margin:auto;
+}
+
+h1 {font-size:0px;}
+h2 {margin-bottom:20px;}
+h3 {font-weight:normal;}
+h4 {margin-left:20px;}
+
+a {
+  color:#333;
+  text-decoration:underline;
+}
+li {list-style:none;}
+p {margin-bottom:0px;}
+
+.corner {
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+
+header {
+  background:url(img/top_bg.jpg);
+  background-repeat: x-repeat;
+  width:1080px;
+  height:70px;
+  margin-bottom:20px;
+}
+
+#hleft {
+  background:url(img/top_left.jpg);
+  float:left;
+  width:275px;
+  height:70px;
+}
+
+#hright {
+  background:url(img/top_right.jpg);
+  float:right;
+  width:230px;
+  height:70px;
+}
+
+nav {
+  background:url(img/topimage.jpg);
+  width:1080px;
+  height:400px;
+  margin-bottom:20px;
+}
+
+main {
+  width:1080px;
+  margin-bottom:20px;
+}
+
+footer {
+  text-align:center;
+}
+
+section {
+  margin-bottom:20px;
+}
+
+footer {
+  background:url(img/news_bg.jpg);
+  width:1080px;
+  height:40px;
+  clear: both;
+}
+
+address {
+  padding-top:10px;
+  background:url(img/top_bg.jpg);
+  font-weight:bold;
+  color:#FFF;
+  width:1080px;
+  height:30px;
+}
+
+wrapper {
+  width:1080px;
+  height:600px;
+}
+
+.items{display:flex;}
+
+.items .item {
+  margin-top:11px;
+  margin-left:20px;
+}
+
+figure{float:right;}
+
+main div {
+  margin:0px;
+  padding:0px;
+}
+
+.left-top {
+  float:left;
+  width:740px;
+}
+
+.left-base {
+  float:left;
+  width:1080px;
+  margin-bottom:20px;
+}
+
+.left-column {
+  float:left;
+  width:500px;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+
+.left-column2 {
+  float:left;
+  width:350px;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+
+table {
+  cursor:default;
+  margin-top:20px;
+  cursor:default;
+}
+
+#rose {
+  background:url(img/rose.gif);
+  float:left;
+  height:25px;
+  width:30px;
+  margin-right:10px;
+}
+
+md {
+  text-align: left;
+  display: flex;
+  margin-left: 0px;
+}
+
+.mdraw1 {
+  margin-top: 20px;
+Å@width: 880px;
+Å@height: 333px;
+}
+
+.yimg {
+  margin-right: 20px;
+}
