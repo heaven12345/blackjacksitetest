@@ -19,7 +19,7 @@ header,footer,nav,section {
 header,nav,main,section,footer {display:block;}
 
 html {
-  font:12px "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+  font:12px "ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3";
   -webkit-text-size-adjust:none;
 }
 
@@ -173,8 +173,8 @@ md {
 
 .mdraw1 {
   margin-top: 20px;
-@width: 880px;
-@height: 333px;
+ã€€width: 880px;
+ã€€height: 333px;
 }
 
 .yimg {
